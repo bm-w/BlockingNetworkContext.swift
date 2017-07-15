@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B68C70211F16BD1300682ACC /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68C70201F16BD1300682ACC /* Context.swift */; };
+		B68C70231F1857F000682ACC /* Context+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68C70221F1857F000682ACC /* Context+Convenience.swift */; };
 		B698E8991F1599900014115B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B698E8981F1599900014115B /* main.swift */; };
 		B698E8A01F1599E10014115B /* Iterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B698E89F1F1599E10014115B /* Iterator.swift */; };
 /* End PBXBuildFile section */
@@ -26,6 +27,7 @@
 
 /* Begin PBXFileReference section */
 		B68C70201F16BD1300682ACC /* Context.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Context.swift; sourceTree = "<group>"; };
+		B68C70221F1857F000682ACC /* Context+Convenience.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Context+Convenience.swift"; sourceTree = "<group>"; };
 		B698E8951F1599900014115B /* BlockingNetwork */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BlockingNetwork; sourceTree = BUILT_PRODUCTS_DIR; };
 		B698E8981F1599900014115B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		B698E89F1F1599E10014115B /* Iterator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Iterator.swift; sourceTree = "<group>"; };
@@ -47,6 +49,7 @@
 			children = (
 				B698E89F1F1599E10014115B /* Iterator.swift */,
 				B68C70201F16BD1300682ACC /* Context.swift */,
+				B68C70221F1857F000682ACC /* Context+Convenience.swift */,
 				B698E8981F1599900014115B /* main.swift */,
 				B698E8961F1599900014115B /* Products */,
 			);
@@ -119,6 +122,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B68C70211F16BD1300682ACC /* Context.swift in Sources */,
+				B68C70231F1857F000682ACC /* Context+Convenience.swift in Sources */,
 				B698E8991F1599900014115B /* main.swift in Sources */,
 				B698E8A01F1599E10014115B /* Iterator.swift in Sources */,
 			);
